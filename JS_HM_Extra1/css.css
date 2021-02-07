@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+.LogIn {
+    display: none;
+    margin: 10px;
+    padding: 20px;
+    position: relative;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    text-align: center;
+    background: white;
+}
+
+.BtnLogIn {
+    position: relative;
+    cursor: pointer;
+    height: 25px;
+}
+.BtnConfirm {
+    position: relative;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    cursor: pointer;
+}
