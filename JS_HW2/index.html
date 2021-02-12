@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homework #2</title>
+</head>
+<body>
+    <link rel="stylesheet" href="css.css">
+    <script src="js.js"></script>
+    <h1>Homework #2</h1>
+    <div class="block">
+        <h2 align="center">Введите температуру в городах</h2>
+    </div>
+    <!-- Блок получения -->
+    <div class="block">
+        <div align="left">
+            <label>Минск</label><input type="text" id="tMin" value=""><br>
+        </div>
+        <div align="left">
+            <label>Гомель</label><input type="text" id="tGom"><br>
+        </div>
+        <div align="left">
+            <label>Могилев</label><input type="text" id="tMog"><br>
+        </div>
+        <div align="left">
+            <label>Витебск</label><input type="text" id="tVit"><br>
+        </div>
+        <div align="left">
+            <label>Гродно</label><input type="text" id="tGro"><br>
+        </div>
+        <div align="left">
+            <label>Брест</label><input type="text" id="tBre"><br>
+        </div>
+        <div>
+            <input type="button" id="calc" value="Рассчитать" onmousedown="values()">
+        </div>
+    </div>
+    <!-- Блок вывода -->
+    <div class="block">
+        <div align="left">
+            <label>Средняя температура</label><input type="text" id="setav"><br>
+        </div>
+        <div align="left">
+            <label>Макс. температура</label><input type="text" id="setmax"><br>
+        </div>
+    </div>
+</body>
+</html>
