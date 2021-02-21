@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To-do list</title>
+        <link rel="stylesheet" href="css.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+        </style>
+    </head>
+    <body>
+        <h1 align="center">To-do List</h1>
+        <div align="center">
+            <!-- Принятие данных -->
+            <div class="block">
+                    <label for="task">Task </label><input type="text" id="task" class = "task" placeholder="Введите задачу"><br>
+                    <label for="date">Date</label><input type="text" id="date" class = "date" placeholder="Введите дату (ГГГГ.ММ.ДД)"><br>
+            </div>
+            <!-- Кнопочки -->
+            <div>
+                <button id="clear">Delete All</button>
+                <button id="add">Submit</button>
+                <button id="save" onmousedown="saveAll()">Save All</button>
+            </div>
+            <!-- Список -->
+            <div class="list">
+                <ul class="todos">
+                    <!-- пусто -->
+                </ul>
+            </div>
+        </div>
+        <script src="all.js"></script>
+        <script src="js.js"></script>
+    </body>
+</html>
