@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HW #4</title>
+    <link  rel="stylesheet" href="css.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+    </style>
+</head>
+    <body>
+        <h1>Homework #4</h1>
+        <button class="buttonAdd" id="add">Создать</button>
+<!--Таблица-->
+        <table id="table">
+            <tr class="trmain">
+                <td>Название</td>
+                <td>Вид</td>
+                <td>Место произрастания</td>
+                <td>Область применения</td>
+                <td><!-- Edit/Delete --></td>
+            </tr>      
+        </table>
+<!--Форма заполнения-->
+        <div class="block" id="block">
+            <div class="mini">
+                <label for="title">Название</label><br>
+                <select id="title">
+                    <option value="Папоротник">Папоротник</option>
+                    <option value="Ель">Ель</option>
+                </select>
+            </div>
+            <div class="mini">
+                <label for="kind">Вид</label><br><input id="kind" type="text">
+            </div>
+            <div class="mini">
+                <label for="klass">Класс</label><br><input id="klass" type="text">
+            </div>
+            <div class="mini">
+                <label for="danger">Класс опасности</label><br><input id="danger" type="text">
+            </div>
+            <div class="mini">
+                <label for="place">Место произрастания</label><br><input id="place" type="text">
+            </div>
+            <div class="mini">
+                <label for="using">Область применения</label><br>
+                <select id="using">
+                    <option value="Пища">Пища</option>
+                    <option value="Медицина">Медицина</option>
+                    <option value="Сельхоз">Сельхоз</option>
+                </select>
+            </div>
+            <div class="mini">
+                <label for="founder">Первооткрыватель</label><br><input id="founder" type="text">
+            </div>
+            <div class="mini">
+                <button class="buttonEdit" id="editbtn">Сохранить</button>
+                <button class="buttonSubmit" id="submit">Подтвердить</button>
+                <button class="buttonCancel" id="cancel">Отменить</button>
+            </div>
+        </div>
+    <script src="js.js"></script>
+    </body>
+</html>
